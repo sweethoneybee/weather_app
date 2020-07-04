@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "나의 첫 번째 앱 제작",
+    "githubUrl": "https://github.com/sweethoneybee/weather_app"
   }
 }

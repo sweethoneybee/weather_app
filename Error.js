@@ -2,17 +2,17 @@ import React from "react";
 import { StyleSheet, Text, View, StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-export default function Loading() {
+export default function Error() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" />
       <MaterialCommunityIcons
-        name="weather-sunny-alert"
+        name="emoticon-sad-outline"
         size={80}
         color="black"
       />
-      <Text style={styles.text}>오늘의 날씨는...</Text>
-      <Text>(@_ @ 두구두구두구 @ _@)</Text>
+      <Text style={styles.text}>뭔가 잘못되었습니다</Text>
+      <Text>앱을 재실행해주세요</Text>
     </View>
   );
 }

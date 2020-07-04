@@ -2,17 +2,17 @@ import React from "react";
 import { StyleSheet, Text, View, StatusBar } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-export default function Loading() {
+export default function CantFindYou() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" />
       <MaterialCommunityIcons
-        name="weather-sunny-alert"
+        name="emoticon-sad-outline"
         size={80}
         color="black"
       />
-      <Text style={styles.text}>오늘의 날씨는...</Text>
-      <Text>(@_ @ 두구두구두구 @ _@)</Text>
+      <Text style={styles.text}>위치를 찾을 수 없어요</Text>
+      <Text>설정에서 위치 허가 켜주세요 ㅠㅠ</Text>
     </View>
   );
 }
